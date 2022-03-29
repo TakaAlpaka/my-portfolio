@@ -13,13 +13,21 @@ p {
   font-size: 16px;
   line-height: 30px;
 }
-
+.logo {
+  max-height: 70px;
+  border-radius: 10px;
+}
+.active {
+  color: #6c63ff !important;
+}
 .hero {
   background: #f9f7fe;
   text-align: center;
   padding: 160px 20px;
 }
-
+.nav-item {
+  padding: 0 30px;
+}
 .hero p {
   font-family: "Poppins", sans-serif;
   font-size: 36px;
@@ -34,7 +42,7 @@ p {
   line-height: 1.5;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 100px 20px;
 }
 .content h1 {
   font-size: 64px;
