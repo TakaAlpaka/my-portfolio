@@ -165,4 +165,7 @@ footer .social-links a:hover {
   .opis-dwa {
     text-align: center;
   }
+  .btn-branding {
+    font-size: 13px;
+  }
 }
