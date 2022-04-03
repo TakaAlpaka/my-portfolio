@@ -26,6 +26,9 @@ p {
 }
 .karuzela {
   max-width: 50%;
+  display: block;
+  text-align: center;
+  margin: 0 auto;
 }
 .active {
   color: rgb(248, 215, 215) !important;
@@ -103,9 +106,7 @@ p {
 .project-description {
   padding: 120px 60px;
 }
-.carousel-inner {
-  width: 100%;
-}
+
 .certyfikaty {
   text-align: center;
 }
