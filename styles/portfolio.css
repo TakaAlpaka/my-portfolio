@@ -24,6 +24,9 @@ p {
   max-height: 70px;
   border-radius: 10px;
 }
+.karuzela {
+  max-width: 50%;
+}
 .active {
   color: rgb(248, 215, 215) !important;
 }
