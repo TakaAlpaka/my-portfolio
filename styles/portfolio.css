@@ -4,6 +4,9 @@ h1 {
   font-size: 96px;
   line-height: 1.5;
 }
+.body {
+  background: grey;
+}
 h2 {
   font-size: 64px;
   font-family: "Poppins", sans-serif;
@@ -153,6 +156,8 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+    line-height: 13px;
+    margin: 0;
   }
   .content-container {
     text-align: center;
