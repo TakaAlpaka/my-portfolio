@@ -167,5 +167,7 @@ footer .social-links a:hover {
   }
   .btn-branding {
     font-size: 13px;
+
+    line-height: 13px;
   }
 }
