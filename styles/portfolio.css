@@ -6,6 +6,7 @@ h1 {
 }
 h2 {
   font-size: 64px;
+  font-family: "Poppins", sans-serif;
 }
 h4 {
   font-size: 48px;
@@ -21,10 +22,10 @@ p {
   border-radius: 10px;
 }
 .active {
-  color: #6c63ff !important;
+  color: rgb(248, 215, 215) !important;
 }
 .hero {
-  background: #f9f7fe;
+  background: rgb(255, 253, 221);
   text-align: center;
   padding: 160px 20px;
 }
@@ -36,7 +37,7 @@ p {
   font-size: 36px;
   font-weight: bold;
   margin: 0;
-  color: #272142;
+  color: rgb(248, 215, 215);
 }
 .hero h2 {
   font-family: "Poppins", sans-serif;
@@ -67,18 +68,26 @@ p {
 .content p {
   margin: 0;
   font-size: 14px;
+  text-decoration: none;
 }
+
 .btn-branding {
-  background: #6c63ff;
+  background: rgb(251, 204, 235);
   border-radius: 4px;
-  color: white;
+  color: black;
   font-size: 18px;
   line-height: 27px;
   padding: 12px 21px;
+  text-decoration: none;
+  box-shadow: 0 3px 10px;
 }
+.project-description-dwa {
+  border: 5px;
+}
+
 .btn-branding-outline {
-  color: #6c63ff;
-  border: 1px solid #6c63ff;
+  color: #304352;
+  border: 1px solid #304352;
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
@@ -88,11 +97,17 @@ p {
 .project-description {
   padding: 120px 60px;
 }
+.carousel-inner {
+  width: 100%;
+}
+.certyfikaty {
+  text-align: center;
+}
 footer {
   margin: 60px 0;
 }
 footer .contact-box {
-  background-color: #f9f7fe;
+  background-color: rgb(248, 215, 215);
   padding: 30px 120px;
   border-radius: 4px;
 }
@@ -106,21 +121,21 @@ footer .email-link {
   text-align: center;
 }
 footer .email-link:hover {
-  color: #6c63ff;
+  color: rgb(248, 215, 215);
 }
 footer .social-links a {
-  margin: 0 20px;
-  color: #6c63ff;
+  margin: 10px;
+  color: rgb(248, 215, 215);
   background-color: aliceblue;
 
-  padding: 10px 14px;
-  font-size: 18px;
+  padding: 20px 30px;
+  font-size: 50px;
   border-radius: 50%;
   transition: all 150ms ease-in-out;
 }
 footer .social-links a:hover {
   color: white;
-  background-color: #6c63ff;
+  background-color: rgb(248, 215, 215);
 }
 
 @media (max-width: 960px) {
@@ -142,5 +157,12 @@ footer .social-links a:hover {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  .opis {
+    text-align: center;
+    padding: 0;
+  }
+  .opis-dwa {
+    text-align: center;
   }
 }
